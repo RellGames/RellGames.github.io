@@ -1,6 +1,6 @@
 @font-face {
     font-family: "portalfont"; /* You can name your font family anything you like */
-    src: url("fonts/portal.ttf") format("ttf"); /*  Specify the path to your font file and the format */
+    src: url("fonts/portal.ttf") format("truetype"); /*  Specify the path to your font file and the format */
     font-weight: normal;  /* Define the weight if applicable (e.g., normal, bold) */
     font-style: normal;   /* Define the style (e.g., normal, italic) */
 }
