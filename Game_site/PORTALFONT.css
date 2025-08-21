@@ -1,7 +1,9 @@
-        @font-face {
-        font-family: 'portal'; /* Choose a descriptive name for your font */
-        src: url('fonts/portal.ttf') format('truetype'); /* Specify the path to your .ttf file */
-        /* Optional: Include font-weight and font-style if you have different variations of the font */
-        /* font-weight: normal; */
-        /* font-style: normal; */
-    }
+@font-face {
+    font-family: "portalfont"; /* You can name your font family anything you like */
+    src: url("fonts/portal.ttf") format("truetype"); /*  Specify the path to your font file and the format */
+    font-weight: normal;  /* Define the weight if applicable (e.g., normal, bold) */
+    font-style: normal;   /* Define the style (e.g., normal, italic) */
+}
+h1 {
+    font-family: "portalfont", sans-serif; /* Apply your custom font to H1 elements, with a fallback */
+}
