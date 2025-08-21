@@ -1,0 +1,7 @@
+        @font-face {
+        font-family: 'portal'; /* Choose a descriptive name for your font */
+        src: url('fonts/portal.ttf') format('truetype'); /* Specify the path to your .ttf file */
+        /* Optional: Include font-weight and font-style if you have different variations of the font */
+        /* font-weight: normal; */
+        /* font-style: normal; */
+    }
